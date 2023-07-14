@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "webpack --config webpack.config.js"
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
